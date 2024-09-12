@@ -1,30 +1,28 @@
-п»ї/*
- 
-Task 1.2
+/*
 
-Р†РЅС–С†С–Р°Р»С–Р·СѓР№С‚Рµ РЅР°СЃС‚СѓРїРЅС– С‡РёСЃР»Р° СЏРє РґС–Р№СЃРЅС–, РїРѕРґРІС–Р№РЅС– РґС–Р№СЃРЅС– С‚Р° РґРѕРІРіС– РґС–Р№СЃРЅС–:
-	10^(-4), 24.33E5, Pi, e, sqrt(5), ln(100)	С‚Р° РІРёРІРµРґС–С‚СЊ С—С… Р· 2 Р·РЅР°РєР°РјРё РїС–СЃР»СЏ РєРѕРјРё.
+Task 2.2
+
+Обчислити гіпотенузу c прямокутного трикутника за катетами a та b.
 
 */
 
 //#include <stdio.h>
 //#include <math.h>
+//#include <Windows.h>
 //
 //int main() {
+//	
+//	SetConsoleCP(1251);
+//	SetConsoleOutputCP(1251);
 //
-//	const double pi = 3.14159265358979323846;
-//	const double e = 2.71828182845904523536;
+//	double a, b;
 //
-//	double num1 = 1e-4;
-//	double num2 = 24.33E5;
-//	double sqrt5 = sqrt(5);
-//	double ln100 = log(100);
+//	printf("Введіть катети a та b: ");
+//	scanf_s("%lf %lf", &a, &b);
 //
-//	printf("10^-4 = %.2e\n", num1);
-//	printf("24.33E5 = %.2e\n", num2);
-//	printf("Pi = %.2f\n", pi);
-//	printf("e = %.2f\n", e);
-//	printf("sqrt(5) = %.2f\n", sqrt5);
-//	printf("ln(100) = %.2f\n", ln100);
+//	double c = sqrt(a * a + b * b);
+//
+//	printf("Гіпотинуза = %.2lf", c);
+//
 //
 //}

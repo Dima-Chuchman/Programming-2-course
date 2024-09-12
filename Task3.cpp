@@ -1,26 +1,26 @@
 /*
 
-Task 1.3
+Task 2.3
 
-Вивести на екран:
-
-- a - a - a
-a | a | a
-- a - a - a
-
-де а - введена з клавіатури цифра
+Обчислити площу трикутника S за трьома сторонами a, b, c.
 
 */
 
-//#include <stdio.h>4
+//#include <stdio.h>
+//#include <Math.h>
+//#include <Windows.h>
 //
 //int main() {
 //
-//    char a;
+//	SetConsoleCP(1251);
+//	SetConsoleOutputCP(1251);
 //
-//    scanf_s("%c", &a);
+//	double a, b, c;
+//	printf("Введіть три сторони трикутника: ");
+//	scanf_s("%lf %lf %lf", &a, &b, &c);
 //
-//    printf("- %c - %c - %c\n", a, a, a);
-//    printf("%c | %c | %c\n", a, a, a);
-//    printf("- %c - %c - %c\n", a, a, a);
+//	double p = (a + b + c) / 2;
+//
+//	double S = sqrt(p * (p - a) * (p - b) * (p - c));
+//	printf("Відповідь: %.2lf", S);
 //}
